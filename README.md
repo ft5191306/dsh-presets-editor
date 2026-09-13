@@ -1,8 +1,7 @@
-# 精简（lite）— DSH agent preset
+# dsh-presets-editor DSH自定义工具和提示词
+该工具为了解决标准模式提示词太多，极简模式工具太少的问题。
 
-DSH 的 agent preset：工具描述与提示词段落重新措辞过，能力与随包发布的 `standard` 一致，
-每轮读到的字更少。提示词文本只在一个地方——`overlay.mjs`。
-
+在\.dsh\.agent-presets\内新建一个模式，仓库agent-pcordis.yaml是带调用overlay.mjs的标准模式，你可以在overlay.mjs中修改提示词。如果要删工具overlay.mjs和cordis.yml要一起删或者直接让ai改。如果想修改DSH的其他模式，让ai读md。 
 ## 用法
 
 克隆到 DSH 的 preset 目录，文件夹名保持 `lite`：
